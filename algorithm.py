@@ -20,15 +20,6 @@ def run_algorithm(matr, prec):
     return x
 
 
-# TODO: debug
-# 2                 size
-# 1  1   0          matrix+result
-# 1 -2   1          matrix+result
-# 0.00001           precision
-
-# correct answ: 0.333333 -0.333333
-# my answ: 0.11111203593605495, 0.22222248645792048
-
 if __name__ == "__main__":
     matrix = Matrix()
     matrix.read_matrix()
